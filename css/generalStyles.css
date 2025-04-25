@@ -11,13 +11,11 @@
   object-position: top;
 }
 #michelleAppletonPFP{
-  width: 45px;
-  height: auto;
+  display: block;
+
+  width: 35px;
+  max-height: 35px;
   border-radius: 2rem;
-}
-#socialLinksBtnImg{
-  width: 15px;
-  height: auto;
 }
 body{
   background-color: hsl(210, 46%, 95%);

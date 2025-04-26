@@ -121,6 +121,14 @@
   transition: background-color 0.3s;
 }
 
+@media(max-width: 1439px){
+  #articlePreviewImgContainer{
+    width: 100%;
+  }
+  #articlePreviewImg{
+    width: 100%;
+  }
+}
 @media (min-width: 1440px){
   .gridWrapper{
     width: auto;
@@ -131,7 +139,6 @@
     width: 300px;
     height: 300px;
     overflow: hidden;
-    
   }
   #articleInfoContainer{
     width: fit-content;

@@ -17,6 +17,8 @@
   border-radius: 2rem;
 }
 body{
+  box-sizing: border-box;
+
   background-color: hsl(210, 46%, 95%);
 
   height: 100dvh;
@@ -25,7 +27,8 @@ body{
   align-items: center;
   justify-content: center;
 }
-@media(min-width: 375px){
+
+@media(max-width: 1439px){
   body{
     max-width: 375px;
     padding: 5rem 1.5rem;
